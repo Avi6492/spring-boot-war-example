@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "All ok.This devops batch is learning Jenkins deployment and learning good!! Also added new function webhook";
+        return "This devops batch is learning Jenkins deployment and learning good!! Also added new function webhook";
     }
 
 }
